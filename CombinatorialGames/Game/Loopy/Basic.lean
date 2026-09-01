@@ -20,7 +20,7 @@ import Mathlib.Data.Countable.Small
 
 The standard notion of a game studied in combinatorial game theory is that of a terminating game,
 meaning that there exists no infinite sequence of moves. Loopy games relax this condition by
-allowing "self-refential" games, with the basic examples being `on = {on | }`, `off = { | off}`, and
+allowing "self-referential" games, with the basic examples being `on = {on | }`, `off = { | off}`, and
 `dud = {dud | dud}`.
 
 In the literature, loopy games are defined as rooted directed graphs up to isomorphism. However,
